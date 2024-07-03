@@ -8,100 +8,116 @@
 			background-color:yellow;
 			text-align:center;
 			}
-			table, tr, td {
-			border:1px solid;
-			border-collapse:collapse;
-			text-align:center;
-			background-color:purple;
-			width:100px;
-			height:50px;
-			}
-			table {
+			.Nivel_1 {
+			border:2px solid;
 			margin-left:auto;
 			margin-right:auto;
+			width:auto;
+			heigth:auto;
+			text-align:center;
 			}
+			.Nivel_2 {
+			border:1px solid;
+			margin-left:5%;
+			margin-right:5%;
+			background-color: brown;
+			width:100%;
+			heigth:auto;
+			text-align:center;
+			}
+			.Nivel_3 {
+			border:1px solid;
+			margin-left:auto%;
+			margin-right:auto%;
+			background-color: pink;
+			width:100%;
+			heigth:auto;
+			text-align:center;
+			}
+
 		</style>
 	</head>
 	<body>
 		<header>
 			<h1>Tabelul meu<h1>
+			<hr style="color:red">
 		</header>		
 		<main>
-			<table class="position:center">
+			<table class="Nivel_1">
 				<tr>
 					<td>
-						<table>
+						<table class="Nivel_2">
 							<tr>
-								<td>1</td>
-								<td>2</td>
+								<td><table class="Nivel_3"><tr><td>1</td></tr></table></td>
+								<td><table class="Nivel_3"><tr><td>2</td></tr></table></td>
 							</tr>
 						</table>
 					</td>
 					<td>
-						<table>
+						<table class="Nivel_2">
 							<tr>
-								<td>1</td>
-								<td>2</td>
+								<td><table class="Nivel_3"><tr><td>3</td></tr></table></td>
+								<td><table class="Nivel_3"><tr><td>4</td></tr></table></td>
 							</tr>
 						</table>
 					</td>
 					<td>
-						<table>
+						<table class="Nivel_2">
 							<tr>
-								<td>1</td>
-								<td>2</td>
+								<td><table class="Nivel_3"><tr><td>5</td></tr></table></td>
+								<td><table class="Nivel_3"><tr><td>6</td></tr></table></td>
 							</tr>
 						</table>
 					</td>
 				</tr>
 				<tr>
 					<td>
-						<table>
+						<table class="Nivel_2">
 							<tr>
-								<td>1</td>
-								<td>2</td>
+								<td><table class="Nivel_3"><tr><td>7</td></tr></table></td>
+								<td><table class="Nivel_3"><tr><td>8</td></tr></table></td>
 							</tr>
 						</table>
 					</td>
 					<td>
-						<table>
+						<table class="Nivel_2">
 							<tr>
-								<td>1</td>
-								<td>2</td>
+								<td><table class="Nivel_3"><tr><td>9</td></tr></table></td>
+								<td><table class="Nivel_3"><tr><td>10</td></tr></table></td>
 							</tr>
 						</table>
 					</td>
 					<td>
-						<table>
+						<table class="Nivel_2">
 							<tr>
-								<td>1</td>
-								<td>2</td>
+								<td><table class="Nivel_3"><tr><td>11</td></tr></table></td>
+								<td><table class="Nivel_3"><tr><td>12</td></tr></table></td>
 							</tr>
 						</table>
 					</td>
 				</tr>
 				<tr>
 					<td>
-						<table>
+						<table class="Nivel_2">
 							<tr>
-								<td>1</td>
-								<td>2</td>
+								<td><table class="Nivel_3"><tr><td>13</td></tr></table></td>
+								<td><table class="Nivel_3"><tr><td>14</td></tr></table></td>
 							</tr>
 						</table>
 					</td>
 					<td>
-						<table>
+						<table class="Nivel_2">
 							<tr>
-								<td>1</td>
-								<td>2</td>
+								<td><table class="Nivel_3"><tr><td>15</td></tr></table></td>
+								<td><table class="Nivel_3"><tr><td>16</td></tr></table></td>
 							</tr>
 						</table>
 					</td>
 					<td>
-						<table>
+						<table class="Nivel_2">
 							<tr>
-								<td>1</td>
-								<td>2</td>
+								<td><table class="Nivel_3"><tr><td>17</td></tr></table></td>
+								<td><table class="Nivel_3"><tr><td>18</td></tr></table></td>
 							</tr>
 						</table>
 					</td>
